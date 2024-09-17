@@ -8,9 +8,6 @@ CentralServiceMonitorApp is a reactive system designed to collect data from vari
 - [Features](#features)
 - [System Architecture](#system-architecture)
 - [Configuration](#configuration)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
