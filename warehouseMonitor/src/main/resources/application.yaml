@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: warehouseMonitor
+  rabbitmq:
+    host: localhost
+    username: guest
+    password: guest
+    port: 5672
+
+sensor:
+  temperature:
+    threshold: 35.0
+  humidity:
+    threshold: 50.0
+
+temperature:
+    data:
+      queue: temperature.data.queue
+
+humidity:
+  data:
+    queue: humidity.data.queue
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        amqp: INFO
