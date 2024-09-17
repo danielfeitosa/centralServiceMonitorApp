@@ -28,4 +28,4 @@ CentralServiceMonitorApp is a reactive system designed to collect data from vari
 
 ### Installation
 
-1. ./run.sh
+- 1. ./run.sh
