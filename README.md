@@ -19,7 +19,6 @@ CentralServiceMonitorApp is a reactive system designed to collect data from vari
 - **Warehouse Service**: Collects data from various sensors (temperature and humidity) and sends it to the central monitoring service.
 - **Central Monitoring Service**: Configured with thresholds for temperature and humidity. Raises an alarm when the measurements cross these thresholds.
 - **Communication**: Uses UDP for sensor data transmission and RabbitMQ for messaging between microservices.
-- **Reactive Programming**: Implements reactive programming using Spring WebFlux for non-blocking communication.
 - **Threshold Monitoring**: Configurable thresholds for temperature and humidity monitoring.
 
 ## Technologies Used
@@ -49,4 +48,4 @@ CentralServiceMonitorApp is a reactive system designed to collect data from vari
 
 ### Installation
 
-1../run.sh
+1. ./run.sh
