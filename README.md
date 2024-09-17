@@ -6,9 +6,7 @@ CentralServiceMonitorApp is a reactive system designed to collect data from vari
 ## Table of Contents
 
 - [Features](#features)
-- [Technologies Used](#technologies-used)
 - [System Architecture](#system-architecture)
-- [Getting Started](#getting-started)
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -21,15 +19,6 @@ CentralServiceMonitorApp is a reactive system designed to collect data from vari
 - **Communication**: Uses UDP for sensor data transmission and RabbitMQ for messaging between microservices.
 - **Threshold Monitoring**: Configurable thresholds for temperature and humidity monitoring.
 
-## Technologies Used
-
-- Java
-- Spring Boot
-- Spring WebFlux (Reactive Programming)
-- RabbitMQ (for messaging)
-- UDP (for sensor data communication)
-- Docker (for containerization)
-- Maven (for dependency management)
 
 ## System Architecture
 
@@ -37,14 +26,8 @@ CentralServiceMonitorApp is a reactive system designed to collect data from vari
 - **Central Monitoring Service**: Consumes messages from RabbitMQ, processes the sensor data, and raises alarms if thresholds are exceeded.
 - **Sensors**: Simulated to send temperature and humidity data using UDP.
 
-## Getting Started
 
-### Prerequisites
 
-- Java 17 or higher
-- Maven 3.8+
-- Docker (optional, for running RabbitMQ)
-- RabbitMQ instance (local or remote)
 
 ### Installation
 
