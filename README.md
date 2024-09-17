@@ -1,4 +1,4 @@
-# CentralServiceMonitorApp
+# Central Service Monitor App
 
 
 CentralServiceMonitorApp is a reactive system designed to collect data from various sensors in a warehouse environment and transmit the measurements to a central monitoring service. The system monitors temperature and humidity levels and raises alarms when these measurements exceed configured thresholds. Communication between services is managed using RabbitMQ, while sensors use UDP to transmit data.
